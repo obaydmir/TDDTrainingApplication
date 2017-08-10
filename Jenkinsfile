@@ -1,6 +1,6 @@
 node {
    def mvnHome
-   stage('Preparation') { // for display purposes
+   stage('Prep') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/codecentric/TDDTrainingApplication.git'
       // Get the Maven tool.
